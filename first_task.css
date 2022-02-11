@@ -1,0 +1,152 @@
+.container{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: "blockA blockB blockC"
+    "blockD blockE blockF"
+    "blockG blockH blockI"
+    "blockJ blockK blockL";
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.blockA{
+    display: flex;
+    grid-area: blockA;
+    height: 150px;
+    width: 50%;
+    background: orange;
+    justify-self: end;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.blockB{
+    grid-area: blockB;
+    height: 150px;
+    width: 50%;
+    background: orange;
+    justify-self: end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.blockC{
+    grid-area: blockC;
+    height: 150px;
+    width: 50%;
+    background: orange;
+    justify-self: end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px
+}
+
+.blockD{
+    grid-area: blockD;
+    height: 150px;
+    width: 50%;
+    background: plum;
+    justify-self: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px
+}
+
+.blockE{
+    grid-area: blockE;
+    height: 150px;
+    width: 50%;
+    background: plum;
+    justify-self: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px
+}
+
+.blockF{
+    grid-area: blockF;
+    height: 150px;
+    width: 50%;
+    background: plum;
+    justify-self: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px
+}
+
+.blockG{
+    grid-area: blockG;
+    height: 150px;
+    width: 50%;
+    background: lightgreen;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px
+}
+
+.blockH{
+    grid-area: blockH;
+    height: 150px;
+    width: 50%;
+    background: lightgreen;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px
+}
+
+.blockI{
+    grid-area: blockI;
+    height: 150px;
+    width: 50%;
+    background: lightgreen;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px
+}
+
+.blockJ{
+    grid-area: blockJ;
+    height: 150px;
+    background: blue;
+    justify-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px
+}
+
+.blockK{
+    grid-area: blockK;
+    height: 150px;
+    background: blue;
+    justify-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px
+}
+
+.blockL{
+    grid-area: blockL;
+    height: 150px;
+    background: blue;
+    justify-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px
+}

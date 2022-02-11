@@ -1,0 +1,94 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+   grid-template-areas: "block1 block1"
+   ". block3"
+   ". block3"
+   "block2 block3";
+    grid-gap: 1vh;
+}
+
+.block-1{
+    grid-area: block1;
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+}
+
+.block-2{
+    grid-area: block2;
+    height: 100px;
+    width: 100%;
+    background: yellow;
+}
+
+.blockgreen{
+    display: grid;
+    grid-area: block3;
+    grid-template-areas: "blockblue blockorange"
+    "blockblue ."
+    "blockblue blockred";
+    align-items: end;
+    background: green;
+    height: 350px;
+    width: 100%;
+}
+
+.blockred{
+grid-area: blockred;
+height: 100px;
+width: auto;
+margin: 10px;
+background: red;
+}
+
+.blockblue{
+    grid-area: blockblue;
+    height: 300px;
+    width: auto;
+    margin: 10px;
+    background: blue;
+
+}
+
+.blockorange{
+    grid-area: blockorange;
+    height: 100px;
+    width: auto;
+    margin: 10px;
+    background: orange;
+}
+
+@media (max-width:700px){
+    .container{
+        display: grid;
+        grid-template-areas: "block1 block1"
+        "block3 block3"
+        "block2 block2";
+    }
+
+    .blockgreen{
+        display: grid;
+        grid-template-areas: "blockblue blockorange";
+        height: 100px;
+    }
+
+    .blockred{
+        display: none;
+    }
+
+    .blockblue{
+        grid-area: blockblue;
+        width: 200px;
+        height: 70px;
+    }
+
+    .blockorange{
+        grid-area: blockorange;
+        width: 200px;
+        height: 70px;
+        justify-self: flex-end;
+    }
+
+}

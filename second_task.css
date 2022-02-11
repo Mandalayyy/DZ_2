@@ -1,0 +1,88 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.blockA{
+background: gray;
+height: 50px;
+width: 100%;
+grid-column: span 2;
+}
+
+.blockB{
+    background: gray;
+    width: 100%;
+    height: 50px;
+}
+
+.blockC{
+    background: gray;
+    width: 100%;
+    height: 50px;
+}
+
+.blockD{
+    background: gray;
+    width: 100%;
+    height: 50px;
+}
+
+.blockE{
+    background: gray;
+    width: 100%;
+    height: 50px;
+}
+
+.blockF{
+    background: gray;
+    width: 100%;
+    height: 50px;
+}
+
+.blockG{
+    background: gray;
+    width: 100%;
+    height: 110px;
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.blockH{
+    background: gray;
+    width: 100%;
+    height: 50px;
+}
+
+.blockI{
+    background: gray;
+    width: 100%;
+    height: 50px;
+}
+
+.blockJ{
+    background: gray;
+    width: 100%;
+    height: 50px;
+}
+
+.blockK{
+    background: gray;
+    width: 100%;
+    height: 50px;
+    grid-column: span 3;
+}
+
+.blockL{
+    background: gray;
+    width: 100%;
+    height: 50px;
+}
+
+.blockM{
+    background: gray;
+    width: 100%;
+    height: 50px;
+}
